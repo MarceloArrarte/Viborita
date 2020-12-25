@@ -1,0 +1,12 @@
+C:\Users\marce\source\repos\Viborita\Viborita\bin\Debug\Viborita.exe.config
+C:\Users\marce\source\repos\Viborita\Viborita\bin\Debug\Viborita.exe
+C:\Users\marce\source\repos\Viborita\Viborita\bin\Debug\Viborita.pdb
+C:\Users\marce\source\repos\Viborita\Viborita\bin\Debug\Viborita.xml
+C:\Users\marce\source\repos\Viborita\Viborita\obj\Debug\Viborita.vbprojAssemblyReference.cache
+C:\Users\marce\source\repos\Viborita\Viborita\obj\Debug\Viborita.Resources.resources
+C:\Users\marce\source\repos\Viborita\Viborita\obj\Debug\Viborita.vbproj.GenerateResource.cache
+C:\Users\marce\source\repos\Viborita\Viborita\obj\Debug\Viborita.vbproj.CoreCompileInputs.cache
+C:\Users\marce\source\repos\Viborita\Viborita\obj\Debug\Viborita.exe
+C:\Users\marce\source\repos\Viborita\Viborita\obj\Debug\Viborita.xml
+C:\Users\marce\source\repos\Viborita\Viborita\obj\Debug\Viborita.pdb
+C:\Users\marce\source\repos\Viborita\Viborita\obj\Debug\Viborita.FrmJuego.resources
