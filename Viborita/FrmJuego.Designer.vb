@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class FrmJuego
     Inherits System.Windows.Forms.Form
 
     'Form reemplaza a Dispose para limpiar la lista de componentes.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class FrmJuego
     'NOTA: el Diseñador de Windows Forms necesita el siguiente procedimiento
     'Se puede modificar usando el Diseñador de Windows Forms.  
     'No lo modifique con el editor de código.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.btnSalir = New System.Windows.Forms.Button()
@@ -28,7 +28,6 @@ Partial Class FrmJuego
         Me.pnlCampoDeJuego = New System.Windows.Forms.Panel()
         Me.tmrMovimiento = New System.Windows.Forms.Timer(Me.components)
         Me.lblPuntaje = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnSalir
@@ -74,21 +73,11 @@ Partial Class FrmJuego
         Me.lblPuntaje.TextAlign = System.Drawing.ContentAlignment.TopCenter
         Me.lblPuntaje.Visible = False
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(476, 420)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(39, 13)
-        Me.Label1.TabIndex = 4
-        Me.Label1.Text = "Label1"
-        '
         'FrmJuego
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(800, 450)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.lblPuntaje)
         Me.Controls.Add(Me.pnlCampoDeJuego)
         Me.Controls.Add(Me.btnIniciar)
@@ -107,5 +96,4 @@ Partial Class FrmJuego
     Friend WithEvents pnlCampoDeJuego As Panel
     Friend WithEvents tmrMovimiento As Timer
     Friend WithEvents lblPuntaje As Label
-    Friend WithEvents Label1 As Label
 End Class

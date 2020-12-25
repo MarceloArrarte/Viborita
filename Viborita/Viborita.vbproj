@@ -73,6 +73,13 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Comida.Designer.vb">
+      <DependentUpon>Comida.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Comida.vb">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Config.vb" />
     <Compile Include="FrmJuego.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +102,8 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Util.vb" />
+    <Compile Include="Viborita.vb" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="FrmJuego.resx">
