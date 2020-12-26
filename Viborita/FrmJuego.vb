@@ -76,13 +76,14 @@ Public Class FrmJuego
     End Function
 
     Private Sub RefrescarViborita()
-        For Each c As Control In pnlCampoDeJuego.Controls
-            If TypeOf c Is Label AndAlso CType(c, Label).Tag = "Viborita" Then
-                pnlCampoDeJuego.Controls.Remove(c)
+        For i = 0 To Viborita.SeccionesCuerpo.Count - 1
+            Dim lbl As Label = Controls.Find("Viborita" & i, False).SingleOrDefault
+            If lbl Is Nothing Then
+                pnlCampoDeJuego.Controls.Add(Viborita.Cola)
+            Else
+                lbl = Viborita.SeccionesCuerpo(i)
             End If
         Next
-
-        Viborita.SeccionesCuerpo.ForEach(Sub(x) pnlCampoDeJuego.Controls.Add(x))
     End Sub
 
     Private Sub btnSalir_Click(sender As Object, e As EventArgs) Handles btnSalir.Click

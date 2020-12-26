@@ -15,7 +15,7 @@
             SeccionesCuerpo(0) = value
         End Set
     End Property
-    Private Property Cola As Label
+    Public Property Cola As Label
         Get
             Return SeccionesCuerpo(SeccionesCuerpo.Count - 1)
         End Get
@@ -88,7 +88,7 @@
     Private Function CrearSeccion(coordenadas As Point) As Label
         Dim lbl As Label = CrearLabel(coordenadas)
         lbl.BackColor = Color.MediumAquamarine
-        lbl.Tag = "Viborita"
+        lbl.Name = "Viborita" & SeccionesCuerpo.Count - 1
         Return lbl
     End Function
 
