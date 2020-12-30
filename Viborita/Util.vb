@@ -1,4 +1,6 @@
-﻿Public Class Util
+﻿Imports Viborita.Config
+
+Public NotInheritable Class Util
     ' Se evita que se declaren instancias
     Private Sub New()
     End Sub

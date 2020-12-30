@@ -1,4 +1,5 @@
 ﻿Imports Viborita.Util
+Imports Viborita.Config
 
 Public Class Viborita
     Public Enum TiposDireccion
@@ -104,7 +105,7 @@ Public Class Viborita
     ' y el nombre "Viborita" & el índice que le corresponde en la lista.
     Private Sub AgregarSeccion(coordenadas As Point)
         Dim lbl As Label = CrearLabel(coordenadas)
-        lbl.BackColor = Color.MediumAquamarine
+        lbl.BackColor = ColorViborita
         lbl.Name = "Viborita" & SeccionesCuerpo.Count - 1
         SeccionesCuerpo.Add(lbl)
     End Sub

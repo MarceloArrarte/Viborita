@@ -1,5 +1,6 @@
 ﻿Imports Viborita.Viborita
 Imports Viborita.Comida
+Imports Viborita.Config
 
 Public Class FrmJuego
     ' Variables usadas en el transcurso del juego

@@ -1,4 +1,5 @@
 ﻿Imports Viborita.Util
+Imports Viborita.Config
 
 Public Class Comida
     ' Propiedad que almacena el tamaño del campo de juego, para determinar
